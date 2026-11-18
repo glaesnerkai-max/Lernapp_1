@@ -1,0 +1,17 @@
+{
+  "name": "hedgefonds-manager-duell",
+  "version": "0.1.0",
+  "description": "Lernspiel: Zwei Fondsmanager:innen im Duell – Diversifikation, Hebel, Absicherung und Gebühren verstehen.",
+  "private": true,
+  "bin": {
+    "hedgefonds-duell": "cli/duell.js"
+  },
+  "scripts": {
+    "duell": "node cli/duell.js",
+    "demo": "node cli/duell.js --modus cvc --runden 8 --seed 42"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "UNLICENSED"
+}
